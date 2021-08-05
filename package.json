@@ -1,0 +1,19 @@
+{
+  "name": "mf-react",
+  "workspaces": {
+    "packages": [
+      "app",
+      "header",
+      "body"
+    ]
+  },
+  "scripts": {
+    "start": "lerna run --parallel start",
+    "build": "lerna run build"
+  },
+  "author": "Akul Srivastava",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
