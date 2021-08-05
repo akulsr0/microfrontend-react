@@ -33,6 +33,10 @@ const App = () => {
       <hr />
       <hr />
       <AppDetails />
+      <br />
+      <a href="https://github.com/akulsr0/microfrontend-react">
+        Source Code (Github)
+      </a>
     </div>
   );
 };
