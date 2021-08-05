@@ -6,7 +6,12 @@ const AppDetails = () => {
   return (
     <div>
       {APPS.map((app) => (
-        <AppDetail key={app.title} color={app.color} title={app.title} />
+        <AppDetail
+          key={app.title}
+          color={app.color}
+          title={app.title}
+          link={app.link}
+        />
       ))}
     </div>
   );

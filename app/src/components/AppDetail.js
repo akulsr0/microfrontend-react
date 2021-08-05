@@ -1,6 +1,6 @@
 import React from "react";
 
-const AppDetail = ({ color, title }) => {
+const AppDetail = ({ color, title, link }) => {
   return (
     <div
       style={{ display: "flex", flexDirection: "row", alignItems: "center" }}
@@ -14,6 +14,9 @@ const AppDetail = ({ color, title }) => {
         }}
       />
       {title}
+      <a href={link} target="_blank" style={{ marginLeft: 10 }}>
+        Link
+      </a>
     </div>
   );
 };

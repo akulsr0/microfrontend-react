@@ -34,7 +34,7 @@ const App = () => {
       <hr />
       <AppDetails />
       <br />
-      <a href="https://github.com/akulsr0/microfrontend-react">
+      <a href="https://github.com/akulsr0/microfrontend-react" target="_blank">
         Source Code (Github)
       </a>
     </div>
