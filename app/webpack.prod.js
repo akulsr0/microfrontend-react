@@ -18,8 +18,8 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "app",
       remotes: {
-        header: "header@-----/remoteEntry.js",
-        body: "body@-----/remoteEntry.js",
+        header: "header@https://mfe-react-header.vercel.app/remoteEntry.js",
+        body: "body@https://mfe-react-body.vercel.app/remoteEntry.js",
       },
     }),
     new HtmlWebpackPlugin({ template: "./public/index.html" }),
